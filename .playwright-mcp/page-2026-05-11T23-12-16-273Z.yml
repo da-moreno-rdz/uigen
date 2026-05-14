@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: Create a card component with a title, description, and a call-to-action button
+            - img [ref=e60]
+          - generic [ref=e63]:
+            - img [ref=e66]
+            - generic [ref=e71]:
+              - generic [ref=e74]: Creating App.jsx
+              - separator [ref=e75]
+              - generic [ref=e78]: Creating Card.jsx
+              - separator [ref=e79]
+              - paragraph [ref=e81]:
+                - text: Done. Created a reusable
+                - code [ref=e287]: Card
+                - text: component with title, description, and CTA button. The component accepts props for customization and includes hover effects on both the card and button.
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [ref=e31]
+          - tab "Code" [selected] [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - generic [ref=e85]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93] [cursor=pointer]:
+              - img [ref=e94]
+              - img [ref=e96]
+              - generic [ref=e98]: components
+            - generic [ref=e101] [cursor=pointer]:
+              - img [ref=e102]
+              - generic [ref=e107]: Card.jsx
+          - generic [ref=e109] [cursor=pointer]:
+            - img [ref=e110]
+            - generic [ref=e115]: App.jsx
+        - separator [ref=e116]
+        - code [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e124]:
+              - generic [ref=e288]:
+                - generic [ref=e289] [cursor=pointer]: 
+                - generic [ref=e290]: "1"
+              - generic [ref=e291]:
+                - generic [ref=e292] [cursor=pointer]: 
+                - generic [ref=e293]: "2"
+              - generic [ref=e294]:
+                - generic [ref=e295] [cursor=pointer]: 
+                - generic [ref=e296]: "3"
+              - generic [ref=e298]: "4"
+              - generic [ref=e300]: "5"
+              - generic [ref=e301]:
+                - generic [ref=e302] [cursor=pointer]: 
+                - generic [ref=e303]: "6"
+              - generic [ref=e305]: "7"
+              - generic [ref=e146]: "8"
+              - generic [ref=e306]:
+                - generic [ref=e307] [cursor=pointer]: 
+                - generic [ref=e308]: "9"
+              - generic [ref=e153]: "10"
+              - generic [ref=e317]: "11"
+              - generic [ref=e319]: "12"
+              - generic [ref=e321]: "13"
+              - generic [ref=e323]: "14"
+              - generic [ref=e326]: "15"
+            - generic [ref=e245]:
+              - generic [ref=e393]: "export default function Card({ title,"
+              - generic [ref=e395]: return (
+              - generic [ref=e397]: <div className="bg-white rounded-xl shadow-sm
+              - generic [ref=e399]: <h2 className="text-gray-900 text-xl
+              - generic [ref=e401]: <p className="text-gray-600 text-sm mb-6">
+              - generic [ref=e403]: <button
+              - generic [ref=e405]: "onClick={onButtonClick}"
+              - generic [ref=e407]: className="bg-blue-600 hover:bg-blue-700
+              - generic [ref=e409]: ">"
+              - generic [ref=e411]: "{buttonText}"
+              - generic [ref=e413]: "description, buttonText, onButtonClick }) {"
+              - generic [ref=e415]: border border-gray-100 p-6 hover:shadow-md
+              - generic [ref=e417]: transition-shadow">
+              - generic [ref=e419]: "font-semibold mb-3\">{title}</h2>"
+              - generic [ref=e421]: "{description}</p>"
+              - generic [ref=e423]: text-white font-medium px-4 py-2
+              - generic [ref=e425]: rounded-lg transition-colors"
+              - generic [ref=e427]: </button>
+              - generic [ref=e429]: </div>
+              - generic [ref=e431]: );
+              - generic [ref=e433]: "}"
+            - textbox "Editor content" [ref=e285]: "}"
+  - alert [ref=e47]
+  - generic [ref=e286]:
+    - alert
+    - alert

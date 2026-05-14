@@ -1,0 +1,132 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e56]: "Create a pricing card component with three tiers: Free, Pro, and Enterprise"
+            - img [ref=e59]
+          - generic [ref=e84]:
+            - img [ref=e87]
+            - generic [ref=e92]:
+              - generic [ref=e95]: Creating App.jsx
+              - separator [ref=e96]
+              - generic [ref=e99]: Creating PricingCards.jsx
+              - separator [ref=e100]
+              - generic [ref=e103]: Creating PricingCard.jsx
+              - separator [ref=e104]
+              - paragraph [ref=e106]: Done. Created a pricing card component with three tiers (Free, Pro, Enterprise). The Pro tier is highlighted with a blue background and slight scale effect. Each card displays the plan name, price, description, features with checkmarks, and a call-to-action button.
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [ref=e31]
+          - tab "Code" [selected] [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - generic [ref=e521]:
+        - generic [ref=e527]:
+          - generic [ref=e528]:
+            - generic [ref=e529] [cursor=pointer]:
+              - img [ref=e530]
+              - img [ref=e532]
+              - generic [ref=e534]: components
+            - generic [ref=e535]:
+              - generic [ref=e537] [cursor=pointer]:
+                - img [ref=e538]
+                - generic [ref=e543]: PricingCard.jsx
+              - generic [ref=e545] [cursor=pointer]:
+                - img [ref=e546]
+                - generic [ref=e551]: PricingCards.jsx
+          - generic [ref=e553] [cursor=pointer]:
+            - img [ref=e554]
+            - generic [ref=e559]: App.jsx
+        - separator [ref=e560]
+        - code [ref=e565]:
+          - generic [ref=e566]:
+            - generic [ref=e568]:
+              - generic [ref=e861]: "45"
+              - generic [ref=e573]: "46"
+              - generic [ref=e575]: "47"
+              - generic [ref=e577]: "48"
+              - generic [ref=e579]: "49"
+              - generic [ref=e862]:
+                - generic [ref=e863] [cursor=pointer]: 
+                - generic [ref=e864]: "50"
+              - generic [ref=e865]:
+                - generic [ref=e866] [cursor=pointer]: 
+                - generic [ref=e867]: "51"
+              - generic [ref=e868]:
+                - generic [ref=e869] [cursor=pointer]: 
+                - generic [ref=e870]: "52"
+              - generic [ref=e871]:
+                - generic [ref=e872] [cursor=pointer]: 
+                - generic [ref=e873]: "53"
+              - generic [ref=e875]: "54"
+              - generic [ref=e877]: "55"
+              - generic [ref=e879]: "56"
+              - generic [ref=e602]: "57"
+              - generic [ref=e606]: "58"
+              - generic [ref=e882]: "59"
+              - generic [ref=e883]:
+                - generic [ref=e884] [cursor=pointer]: 
+                - generic [ref=e885]: "33"
+              - generic [ref=e887]: "34"
+              - generic [ref=e889]: "35"
+              - generic [ref=e891]: "36"
+              - generic [ref=e892]:
+                - generic [ref=e893] [cursor=pointer]: 
+                - generic [ref=e894]: "37"
+              - generic [ref=e896]: "38"
+              - generic [ref=e898]: "39"
+              - generic [ref=e900]: "40"
+              - generic [ref=e902]: "41"
+              - generic [ref=e904]: "42"
+              - generic [ref=e906]: "43"
+              - generic [ref=e908]: "44"
+            - generic [ref=e794]:
+              - generic [ref=e994]: "cta: 'Contact Sales',"
+              - generic [ref=e996]: "highlighted: false,"
+              - generic [ref=e998]: "},"
+              - generic [ref=e1000]: "];"
+              - generic [ref=e1003]: "export default function PricingCards() {"
+              - generic [ref=e1005]: return (
+              - generic [ref=e1007]: <div className="grid md:grid-cols-3 gap-8">
+              - generic [ref=e1009]: "{tiers.map((tier) => ("
+              - generic [ref=e1011]: "<PricingCard key={tier.name} tier={tier} /"
+              - generic [ref=e1013]: "))}"
+              - generic [ref=e1015]: </div>
+              - generic [ref=e1017]: );
+              - generic [ref=e1019]: "}"
+              - generic [ref=e1022]: "{"
+              - generic [ref=e1024]: "name: 'Enterprise',"
+              - generic [ref=e1026]: "price: 'Custom',"
+              - generic [ref=e1028]: "description: 'For large organizations',"
+              - generic [ref=e1030]: "features: ["
+              - generic [ref=e1032]: "'Unlimited everything',"
+              - generic [ref=e1034]: "'Dedicated support',"
+              - generic [ref=e1036]: "'Custom contracts',"
+              - generic [ref=e1038]: "'SSO & advanced security',"
+              - generic [ref=e1040]: "'SLA guarantee',"
+              - generic [ref=e1042]: "'Custom integrations',"
+              - generic [ref=e1044]: "],"
+              - generic [ref=e1046]: ">"
+            - textbox "Editor content" [ref=e851]: "return ( <div className=\"grid md:grid-cols-3 gap-8\"> {tiers.map((tier) => ( <PricingCard key={tier.name} tier={tier} /> ))} </div> ); }"
+            - generic [ref=e853]:
+              - generic [ref=e1047]:
+                - generic [ref=e1048]: "3"
+                - generic [ref=e1049]: 
+              - generic [ref=e857]:
+                - list:
+                  - listitem [ref=e1050]:
+                    - generic [ref=e1051]: const tiers = [
+  - alert [ref=e46]
+  - generic [ref=e326]:
+    - alert
+    - alert

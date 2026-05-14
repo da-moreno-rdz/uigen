@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev)",
+      "Bash(npm run build)",
+      "Bash(npm run lint)",
+      "Bash(npm run test)",
+      "Bash(npm run setup)",
+      "Bash(npm run db:reset)",
+      "Bash(npx vitest run*)",
+      "Bash(npx prisma*)",
+      "mcp__playwright"
+    ],
+    "deny": []
+  }
+}

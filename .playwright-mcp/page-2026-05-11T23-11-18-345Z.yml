@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: Create a card component with a title, description, and a call-to-action button
+            - img [ref=e60]
+          - generic [ref=e63]:
+            - img [ref=e66]
+            - generic [ref=e71]:
+              - generic [ref=e74]: Creating App.jsx
+              - separator [ref=e75]
+              - generic [ref=e78]: Creating Card.jsx
+              - separator [ref=e79]
+              - paragraph [ref=e81]:
+                - text: Done. Created a reusable
+                - code [ref=e82]: Card
+                - text: component with title, description, and CTA button. The component accepts props for customization and includes hover effects on both the card and button.
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [selected] [ref=e31]
+          - tab "Code" [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - iframe [ref=e83]:
+        - generic [ref=f8e5]:
+          - heading "Get Started Today" [level=2] [ref=f8e6]
+          - paragraph [ref=f8e7]: Join thousands of users who are already enjoying our platform. Sign up now and unlock premium features.
+          - button "Sign Up" [ref=f8e8] [cursor=pointer]
+  - alert [ref=e47]

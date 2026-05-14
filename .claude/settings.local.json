@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const p = require\\('./package.json'\\); const keys = ['ai','@ai-sdk/anthropic','@ai-sdk/react','@ai-sdk/provider']; keys.forEach\\(k => console.log\\(k+':', p.dependencies[k] || p.devDependencies?.[k]\\)\\)\")",
+      "Bash(npm show *)",
+      "Bash(npm install *)",
+      "Bash(node -e \"const p = require\\('./package.json'\\); console.log\\('zod:', p.dependencies.zod || p.devDependencies?.zod\\)\")",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/zod/package.json'\\).version\\)\")",
+      "Bash(npm audit *)",
+      "Bash(node -e \"try { require\\('@ai-sdk/react'\\); console.log\\('found'\\); } catch\\(e\\) { console.log\\('not found'\\); }\")",
+      "Bash(node -e \"const ai = require\\('ai'\\); console.log\\(Object.keys\\(ai\\).filter\\(k => k.toLowerCase\\(\\).includes\\('chat'\\) || k === 'Message' || k === 'useChat'\\)\\)\")",
+      "Bash(node -e \"const ai = require\\('ai'\\); console.log\\(Object.keys\\(ai\\).slice\\(0, 50\\)\\)\")",
+      "Bash(node -e \"const ai = require\\('ai'\\); const keys = Object.keys\\(ai\\); console.log\\(keys.filter\\(k => ['Message','streamText','appendResponseMessages','tool','useChat'].includes\\(k\\)\\)\\)\")",
+      "Bash(npx tsc *)",
+      "Bash(Get-Content \"C:\\\\Users\\\\DANIEL~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-DanielMoreno2-Desktop-uigen\\\\578d6780-f139-4d97-b135-8430e26f555a\\\\tasks\\\\b7ksmm0h8.output\" -Wait)",
+      "Bash(Select-String -Pattern \"Ready|ready|Error|error|localhost\")",
+      "Bash(curl -s http://localhost:3000)"
+    ]
+  }
+}

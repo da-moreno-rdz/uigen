@@ -1,0 +1,103 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - generic [ref=e56]: Create a card component with a title, description, and a call-to-action button
+            - img [ref=e59]
+          - generic [ref=e62]:
+            - img [ref=e65]
+            - generic [ref=e70]:
+              - generic [ref=e73]: Creating App.jsx
+              - separator [ref=e74]
+              - generic [ref=e77]: Creating Card.jsx
+              - separator [ref=e78]
+              - paragraph [ref=e80]: Done! Created a reusable Card component with title, description, and CTA button. The App.jsx demonstrates it with sample content.
+        - generic [ref=e19]:
+          - textbox "Describe the React component you want to create..." [ref=e20]
+          - button [disabled] [ref=e21]:
+            - img [ref=e22]
+    - separator [ref=e25]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - tablist [ref=e30]:
+          - tab "Preview" [ref=e31]
+          - tab "Code" [active] [selected] [ref=e32]
+        - generic [ref=e33]:
+          - button "Sign In" [ref=e34]
+          - button "Sign Up" [ref=e35]
+      - generic [ref=e82]:
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - generic [ref=e90] [cursor=pointer]:
+              - img [ref=e91]
+              - img [ref=e93]
+              - generic [ref=e95]: components
+            - generic [ref=e98] [cursor=pointer]:
+              - img [ref=e99]
+              - generic [ref=e104]: Card.jsx
+          - generic [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e112]: App.jsx
+        - separator [ref=e113]
+        - code [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e121]:
+              - generic [ref=e124]: "1"
+              - generic [ref=e126]: "2"
+              - generic [ref=e127]:
+                - generic [ref=e128] [cursor=pointer]: 
+                - generic [ref=e129]: "3"
+              - generic [ref=e130]:
+                - generic [ref=e131] [cursor=pointer]: 
+                - generic [ref=e132]: "4"
+              - generic [ref=e133]:
+                - generic [ref=e134] [cursor=pointer]: 
+                - generic [ref=e135]: "5"
+              - generic [ref=e136]:
+                - generic [ref=e137] [cursor=pointer]: 
+                - generic [ref=e138]: "6"
+              - generic [ref=e139]:
+                - generic [ref=e140] [cursor=pointer]: 
+                - generic [ref=e141]: "7"
+              - generic [ref=e143]: "8"
+              - generic [ref=e145]: "9"
+              - generic [ref=e150]: "10"
+              - generic [ref=e152]: "11"
+              - generic [ref=e155]: "12"
+              - generic [ref=e157]: "13"
+              - generic [ref=e159]: "14"
+              - generic [ref=e161]: "15"
+              - generic [ref=e163]: "16"
+              - generic [ref=e165]: "17"
+            - generic [ref=e249]:
+              - generic [ref=e251]: import Card from '@/components/Card';
+              - generic [ref=e254]: "export default function App() {"
+              - generic [ref=e256]: return (
+              - generic [ref=e258]: <div className="min-h-screen bg-gray-100 p-8">
+              - generic [ref=e260]: <div className="max-w-md mx-auto">
+              - generic [ref=e262]: <Card
+              - generic [ref=e264]: title="Get Started"
+              - generic [ref=e266]: description="Learn how to build amazing
+              - generic [ref=e268]: applications with our platform. Start
+              - generic [ref=e270]: your journey today and unlock your
+              - generic [ref=e272]: potential."
+              - generic [ref=e274]: buttonText="Learn More"
+              - generic [ref=e276]: "onButtonClick={() => alert('Button"
+              - generic [ref=e278]: "clicked!')}"
+              - generic [ref=e280]: />
+              - generic [ref=e282]: </div>
+              - generic [ref=e284]: </div>
+              - generic [ref=e286]: );
+              - generic [ref=e288]: "}"
+            - textbox "Editor content" [ref=e291]
+            - generic:
+              - generic:
+                - generic:
+                  - list
+  - alert [ref=e46]
+  - generic [ref=e292]:
+    - alert
+    - alert

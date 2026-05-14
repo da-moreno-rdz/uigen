@@ -1,0 +1,114 @@
+[    1327ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_1e674e59._.js:14537
+[    4380ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5956
+[    4845ms] [LOG] [Fast Refresh] done in 575ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5816
+[    6887ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[    7482ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[    9803ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[    9808ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[    9847ms] [ERROR] Failed to load app: TypeError: Failed to resolve module specifier "./PricingCard". Invalid relative url or base scheme isn't hierarchical. @ about:srcdoc:150
+[    9848ms] [ERROR] Import map: {
+  "imports": {
+    "react": "https://esm.sh/react@19",
+    "react-dom": "https://esm.sh/react-dom@19",
+    "react-dom/client": "https://esm.sh/react-dom@19/client",
+    "react/jsx-runtime": "https://esm.sh/react@19/jsx-runtime",
+    "react/jsx-dev-runtime": "https://esm.sh/react@19/jsx-dev-runtime",
+    "/App.jsx": "blob:http://localhost:3000/e13df562-67f3-4599-8430-fca994b994a8",
+    "App.jsx": "blob:http://localhost:3000/e13df562-67f3-4599-8430-fca994b994a8",
+    "@/App.jsx": "blob:http://localhost:3000/e13df562-67f3-4599-8430-fca994b994a8",
+    "/App": "blob:http://localhost:3000/e13df562-67f3-4599-8430-fca994b994a8",
+    "App": "blob:http://localhost:3000/e13df562-67f3-4599-8430-fca994b994a8",
+    "@/App": "blob:http://localhost:3000/e13df562-67f3-4599-8430-fca994b994a8",
+    "/components/PricingCards.jsx": "blob:http://localhost:3000/e055049d-314e-4fad-9508-da2b0d244b97",
+    "components/PricingCards.jsx": "blob:http://localhost:3000/e055049d-314e-4fad-9508-da2b0d244b97",
+    "@/components/PricingCards.jsx": "blob:http://localhost:3000/e055049d-314e-4fad-9508-da2b0d244b97",
+    "/components/PricingCards": "blob:http://localhost:3000/e055049d-314e-4fad-9508-da2b0d244b97",
+    "components/PricingCards": "blob:http://localhost:3000/e055049d-314e-4fad-9508-da2b0d244b97",
+    "@/components/PricingCards": "blob:http://localhost:3000/e055049d-314e-4fad-9508-da2b0d244b97",
+    "./PricingCard": "blob:http://localhost:3000/0e559faf-2f95-457c-9349-198c8518351b"
+  }
+} @ about:srcdoc:151
+[   11432ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5956
+[   11452ms] [LOG] [Fast Refresh] done in 125ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5816
+[   14115ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   14121ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   14154ms] [ERROR] Failed to load app: TypeError: Failed to resolve module specifier "./PricingCard". Invalid relative url or base scheme isn't hierarchical. @ about:srcdoc:157
+[   14154ms] [ERROR] Import map: {
+  "imports": {
+    "react": "https://esm.sh/react@19",
+    "react-dom": "https://esm.sh/react-dom@19",
+    "react-dom/client": "https://esm.sh/react-dom@19/client",
+    "react/jsx-runtime": "https://esm.sh/react@19/jsx-runtime",
+    "react/jsx-dev-runtime": "https://esm.sh/react@19/jsx-dev-runtime",
+    "/App.jsx": "blob:http://localhost:3000/40ef11fa-9220-46a3-b2a6-6e9e6b567230",
+    "App.jsx": "blob:http://localhost:3000/40ef11fa-9220-46a3-b2a6-6e9e6b567230",
+    "@/App.jsx": "blob:http://localhost:3000/40ef11fa-9220-46a3-b2a6-6e9e6b567230",
+    "/App": "blob:http://localhost:3000/40ef11fa-9220-46a3-b2a6-6e9e6b567230",
+    "App": "blob:http://localhost:3000/40ef11fa-9220-46a3-b2a6-6e9e6b567230",
+    "@/App": "blob:http://localhost:3000/40ef11fa-9220-46a3-b2a6-6e9e6b567230",
+    "/components/PricingCards.jsx": "blob:http://localhost:3000/b033484f-bf71-4503-b24e-9f447fc06708",
+    "components/PricingCards.jsx": "blob:http://localhost:3000/b033484f-bf71-4503-b24e-9f447fc06708",
+    "@/components/PricingCards.jsx": "blob:http://localhost:3000/b033484f-bf71-4503-b24e-9f447fc06708",
+    "/components/PricingCards": "blob:http://localhost:3000/b033484f-bf71-4503-b24e-9f447fc06708",
+    "components/PricingCards": "blob:http://localhost:3000/b033484f-bf71-4503-b24e-9f447fc06708",
+    "@/components/PricingCards": "blob:http://localhost:3000/b033484f-bf71-4503-b24e-9f447fc06708",
+    "lucide-react": "https://esm.sh/lucide-react",
+    "/components/PricingCard.jsx": "blob:http://localhost:3000/938a38c0-15f2-4fd1-a53f-f74843d7c3b5",
+    "components/PricingCard.jsx": "blob:http://localhost:3000/938a38c0-15f2-4fd1-a53f-f74843d7c3b5",
+    "@/components/PricingCard.jsx": "blob:http://localhost:3000/938a38c0-15f2-4fd1-a53f-f74843d7c3b5",
+    "/components/PricingCard": "blob:http://localhost:3000/938a38c0-15f2-4fd1-a53f-f74843d7c3b5",
+    "components/PricingCard": "blob:http://localhost:3000/938a38c0-15f2-4fd1-a53f-f74843d7c3b5",
+    "@/components/PricingCard": "blob:http://localhost:3000/938a38c0-15f2-4fd1-a53f-f74843d7c3b5",
+    "./PricingCard": "blob:http://localhost:3000/ba93b418-f268-4b2a-a778-03f255b720b7"
+  }
+} @ about:srcdoc:158
+[   43823ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5956
+[   43840ms] [LOG] [Fast Refresh] done in 124ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5816
+[   46019ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5956
+[   46036ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5816
+[   51865ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5956
+[   51959ms] [LOG] [Fast Refresh] done in 170ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5816
+[   54123ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5956
+[   54140ms] [LOG] [Fast Refresh] done in 118ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5816
+[   74096ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5956
+[   74181ms] [LOG] [Fast Refresh] done in 156ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5816
+[   75720ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ about:srcdoc:0
+[   75767ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[   75844ms] [ERROR] Failed to load app: TypeError: Failed to resolve module specifier "./PricingCard". Invalid relative url or base scheme isn't hierarchical. @ about:srcdoc:157
+[   75844ms] [ERROR] Import map: {
+  "imports": {
+    "react": "https://esm.sh/react@19",
+    "react-dom": "https://esm.sh/react-dom@19",
+    "react-dom/client": "https://esm.sh/react-dom@19/client",
+    "react/jsx-runtime": "https://esm.sh/react@19/jsx-runtime",
+    "react/jsx-dev-runtime": "https://esm.sh/react@19/jsx-dev-runtime",
+    "/App.jsx": "blob:http://localhost:3000/eeac156d-828e-4dd0-aba0-16455f9c7b1b",
+    "App.jsx": "blob:http://localhost:3000/eeac156d-828e-4dd0-aba0-16455f9c7b1b",
+    "@/App.jsx": "blob:http://localhost:3000/eeac156d-828e-4dd0-aba0-16455f9c7b1b",
+    "/App": "blob:http://localhost:3000/eeac156d-828e-4dd0-aba0-16455f9c7b1b",
+    "App": "blob:http://localhost:3000/eeac156d-828e-4dd0-aba0-16455f9c7b1b",
+    "@/App": "blob:http://localhost:3000/eeac156d-828e-4dd0-aba0-16455f9c7b1b",
+    "/components/PricingCards.jsx": "blob:http://localhost:3000/349f45e9-5433-4dc2-b0ec-40d813514eed",
+    "components/PricingCards.jsx": "blob:http://localhost:3000/349f45e9-5433-4dc2-b0ec-40d813514eed",
+    "@/components/PricingCards.jsx": "blob:http://localhost:3000/349f45e9-5433-4dc2-b0ec-40d813514eed",
+    "/components/PricingCards": "blob:http://localhost:3000/349f45e9-5433-4dc2-b0ec-40d813514eed",
+    "components/PricingCards": "blob:http://localhost:3000/349f45e9-5433-4dc2-b0ec-40d813514eed",
+    "@/components/PricingCards": "blob:http://localhost:3000/349f45e9-5433-4dc2-b0ec-40d813514eed",
+    "lucide-react": "https://esm.sh/lucide-react",
+    "/components/PricingCard.jsx": "blob:http://localhost:3000/1d8d58fd-6bf0-4cdf-869f-299d9db5fd3d",
+    "components/PricingCard.jsx": "blob:http://localhost:3000/1d8d58fd-6bf0-4cdf-869f-299d9db5fd3d",
+    "@/components/PricingCard.jsx": "blob:http://localhost:3000/1d8d58fd-6bf0-4cdf-869f-299d9db5fd3d",
+    "/components/PricingCard": "blob:http://localhost:3000/1d8d58fd-6bf0-4cdf-869f-299d9db5fd3d",
+    "components/PricingCard": "blob:http://localhost:3000/1d8d58fd-6bf0-4cdf-869f-299d9db5fd3d",
+    "@/components/PricingCard": "blob:http://localhost:3000/1d8d58fd-6bf0-4cdf-869f-299d9db5fd3d",
+    "./PricingCard": "blob:http://localhost:3000/42baa13e-0a59-4806-8d1b-12127d01abed"
+  }
+} @ about:srcdoc:158
+[   76132ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5956
+[   76133ms] [LOG] [Fast Refresh] done in 107ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5816
+[   88378ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5956
+[   88466ms] [LOG] [Fast Refresh] done in 159ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5816
+[   90480ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5956
+[   90481ms] [LOG] [Fast Refresh] done in 116ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5816
+[  149979ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5956
+[  150090ms] [LOG] [Fast Refresh] done in 206ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_client_cf1d9188._.js:5816
